@@ -7,24 +7,25 @@ import card5 from "../../assets/images/portfolio-images/card-5.png";
 import card6 from "../../assets/images/portfolio-images/card-6.png";
 
 const projectData = [
-  {
+ {
     id: 1,
-    image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    image: card2,
+    category: "Web Development",
+    title: "Cloud-Native Web Platform & Microservices",
     description:
-      "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
+      "On top of the cloud infrastructure, we implemented a microservices-based web application using Spring Boot for the backend and Angular 17 for the frontend, with MySQL as the database. Each service is independently deployed and managed within the Kubernetes cluster, enabling scalability and fault isolation. The platform includes JWT-based security, real-time WebSocket notifications, and AI-powered features such as pet breed detection, intelligent matching, and a chatbot assistant. This architecture ensures a responsive, secure, and user-centric experience while fully leveraging the underlying cloud ecosystem.",
     link: "#!",
   },
   {
     id: 2,
-    image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    image: card1,
+    category: "Cloud & Infrastructure",
+    title: "Hybrid Cloud Infrastructure and Kubernetes Automation",
     description:
-      "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
+      "In this phase, we designed and deployed a hybrid cloud architecture combining OpenStack (on-premise) and AWS, ensuring flexibility, cost optimization, and high availability. The infrastructure was fully automated using Ansible, enabling consistent provisioning and configuration across environments. A Kubernetes cluster orchestrates all services, while Docker ensures portability and cloud-native deployment. To guarantee reliability and observability, we integrated Prometheus, Grafana, and Node Exporter for real-time monitoring, performance tracking, and proactive issue detection.",
     link: "#!",
   },
+ 
   {
     id: 3,
     image: card3,
@@ -71,7 +72,7 @@ const Portfolio = () => {
     >
       <div className="xl:mb-17.5 mb-5">
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
-          <p className="section-title ">Portfolio</p>
+          <p className="section-title ">Projects</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
             Here's a selection of my recent work, showcasing my skills in
             creating user-centric and visually appealing interfaces.
