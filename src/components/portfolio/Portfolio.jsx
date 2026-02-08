@@ -5,6 +5,7 @@ import card3 from "../../assets/images/portfolio-images/card-3.png";
 import card4 from "../../assets/images/portfolio-images/card-4.png";
 import card5 from "../../assets/images/portfolio-images/card-5.png";
 import card6 from "../../assets/images/portfolio-images/card-6.png";
+import dashboardVideo from "../../assets/images/portfolio-images/dashboard.mp4";
 
 const projectData = [
  {
@@ -13,7 +14,7 @@ const projectData = [
     category: "Web Development",
     title: "Cloud-Native Web Platform & Microservices",
     description:
-      "On top of the cloud infrastructure, we implemented a microservices-based web application using Spring Boot for the backend and Angular 17 for the frontend, with MySQL as the database. Each service is independently deployed and managed within the Kubernetes cluster, enabling scalability and fault isolation. The platform includes JWT-based security, real-time WebSocket notifications, and AI-powered features such as pet breed detection, intelligent matching, and a chatbot assistant. This architecture ensures a responsive, secure, and user-centric experience while fully leveraging the underlying cloud ecosystem.",
+      "In this phase, I designed and deployed a hybrid cloud architecture combining OpenStack (on-premise) and AWS, ensuring flexibility, cost optimization, and high availability. The infrastructure was fully automated using Ansible, enabling consistent provisioning and configuration across environments. A Kubernetes cluster orchestrates all services, while Docker ensures portability and cloud-native deployment. To guarantee reliability and observability, we integrated Prometheus, Grafana, and Node Exporter for real-time monitoring, performance tracking, and proactive issue detection.",
     link: "#!",
   },
   {
@@ -22,22 +23,23 @@ const projectData = [
     category: "Cloud & Infrastructure",
     title: "Hybrid Cloud Infrastructure and Kubernetes Automation",
     description:
-      "In this phase, we designed and deployed a hybrid cloud architecture combining OpenStack (on-premise) and AWS, ensuring flexibility, cost optimization, and high availability. The infrastructure was fully automated using Ansible, enabling consistent provisioning and configuration across environments. A Kubernetes cluster orchestrates all services, while Docker ensures portability and cloud-native deployment. To guarantee reliability and observability, we integrated Prometheus, Grafana, and Node Exporter for real-time monitoring, performance tracking, and proactive issue detection.",
+      "On top of the cloud infrastructure, we implemented a microservices-based web application using Spring Boot for the backend and Angular 17 for the frontend, with MySQL as the database. Each service is independently deployed and managed within the Kubernetes cluster, enabling scalability and fault isolation. The platform includes JWT-based security, real-time WebSocket notifications, and AI-powered features such as pet breed detection, intelligent matching, and a chatbot assistant. This architecture ensures a responsive, secure, and user-centric experience while fully leveraging the underlying cloud ecosystem.",
     link: "#!",
   },
  
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Web Development",
+    title: "Carpooling Web application",
     description:
-      "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
+      "I developed a carpooling application that enables users to seamlessly book or offer rides, focusing on creating an intuitive and efficient experience. I also influenced key product decisions by optimizing backend matching algorithms, resulting in a 25% improvement in matching accuracy. The project was built using Angular and Spring Boot, with Postman used for API testing and Figma for designing and refining the user interface..",
     link: "#!",
   },
   {
     id: 4,
-    image: card4,
+    image: dashboardVideo,
+    isVideo: true, // 👈 one small flag
     category: "UI-UX DESIGN",
     title: "Product Admin Dashboard",
     description:

@@ -146,7 +146,7 @@ const brandLogos = [
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className={`${commonSVGClass}`}
-      viewBox="0 0 559 168"
+      viewBox="0 0 559 161"
     >
       <path
         fill="#B8BCC2"
